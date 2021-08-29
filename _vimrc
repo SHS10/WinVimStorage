@@ -1,6 +1,7 @@
 set backspace=2
 set nocompatible               " turns off legacy vi mode
 filetype off                   " required!
+set number
 autocmd VimEnter * NERDTree
 
 set rtp+=~/vimfiles/bundle/vundle/
